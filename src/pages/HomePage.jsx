@@ -20,7 +20,7 @@ const Home = () => {
         <div className="flex justify-between space-x-4">
           {banners.map((banner, index) => (
             <a href={banner.href} className="relative group" key={index}>
-              <img src={banner.img} alt={`Image ${index + 1}`} className="w-full h-48 object-cover" />
+              <img src={banner.src} alt={banner.name} className="w-full h-48 object-cover" />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100">
                 {banner.text} <i className="fas fa-arrow-right ml-2"></i>
               </div>
@@ -30,7 +30,7 @@ const Home = () => {
       </div>
     </section>
       <h2>Welcome to My App</h2>
-      <p>This is the home page.</p>
+      <p>This is the testing phase.</p>
       
     </div>
   );

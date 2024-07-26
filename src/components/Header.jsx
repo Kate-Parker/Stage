@@ -19,7 +19,7 @@ const Header = () => {
       </div>
       <div className="container mx-auto flex justify-between items-center py-4">
         <div className="flex items-center space-x-4">
-          <img src="logo.png" alt="EcoMed Logo" className="w-12" />
+          <img src="Logo.jpg" alt="EcoMed Logo" className="w-12" />
           <h1 className="text-2xl font-bold">EcoMed</h1>
         </div>
         <div className="flex items-center space-x-4">
