@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HeaderDrawer from './components/HeaderDrawer';
+import Header from './components/Header';
 import SubMenu from './pages/SubMenu';
 import FaceMask from './pages/FaceMask';
 import BufferCap from './pages/BufferCap';
@@ -16,9 +17,10 @@ import Footer from './components/Footer';
 
 
 function App() {
-  return (
+return (
     <Router>
-        <HeaderDrawer/>
+      <Header/>
+      <HeaderDrawer/>
         <Routes>
           <Route path="/" element={<HomePage />} /> 
           <Route path="/submenu" element={<SubMenu />} />

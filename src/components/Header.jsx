@@ -7,9 +7,9 @@ const Header = () => {
       <div className="bg-gray-200 py-2">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex space-x-4">
-            <a href="pageA.html" className="text-gray-700">Help Center</a>
-            <a href="pageB.html" className="text-gray-700">Today's Deal</a>
-            <a href="pageC.html" className="text-gray-700">Order Tracking</a>
+            <a href="#" className="text-gray-700">Help Center</a>
+            <a href="#" className="text-gray-700">Today's Deal</a>
+            <a href="#" className="text-gray-700">Order Tracking</a>
           </div>
           <div className="flex items-center space-x-2">
             <span className="text-gray-700">Get Upto 25% Cashback On First Order: GET25OFF</span>
