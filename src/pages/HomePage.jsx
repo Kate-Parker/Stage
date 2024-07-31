@@ -21,7 +21,7 @@ const products  = [
 
   {
     id: 2,
-    title: 'Eco-Friendly Golden Blue Cotton Face Mask',
+    title: 'Oxin Nutrition Omega 3 Triple Strength Capsule',
     price: '58,00 $',
     newPrice: '51,04 $',
     discount: '-12%',
@@ -32,7 +32,7 @@ const products  = [
 
   {
     id: 3,
-    title: 'Eco-Friendly Golden Blue Cotton Face Mask',
+    title: 'Dettol Germ Protection Handwash Liquid',
     price: '58,00 $',
     newPrice: null,
     discount: null,
@@ -43,7 +43,7 @@ const products  = [
 
   {
     id: 4,
-    title: 'Eco-Friendly Golden Blue Cotton Face Mask',
+    title: 'TV Night Light Alarm Clock for Patient Desk',
     price: '69,00 $',
     newPrice: '64,17 $',
     discount: '-7%',
@@ -53,7 +53,7 @@ const products  = [
   },
   {
     id: 5,
-    title: 'TV Night Light Alarm Clock for Patient Desk',
+    title: 'Blood Pressure Machine',
     price: '69,00 $',
     newPrice: '64,17 $',
     discount: '-4%',
